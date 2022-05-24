@@ -20,5 +20,6 @@ from recetas.views import home_views
 
 urlpatterns = [
     path('', home_views.home),
+    path('contact/', home_views.contacto),
     path('admin/', admin.site.urls),
 ]
