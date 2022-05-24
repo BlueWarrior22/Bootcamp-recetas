@@ -17,9 +17,11 @@ from django import views
 from django.contrib import admin
 from django.urls import path
 from recetas.views import home_views
+from recetas.views import user_views
 
 urlpatterns = [
-    path('', home_views.home),
-    path('contact/', home_views.contacto),
+    path('', home_views.home, name='home'),
+    path('contact/', home_views.contacto, name='contacto'),
+    path('registro/', user_views.registro, name='registro'),
     path('admin/', admin.site.urls),
 ]
