@@ -1,7 +1,11 @@
-body{
-    background: #222;
-    color: #FFF;
-  }
+/*
+
+#006778 azul 1
+#0093AB azul 2
+#00AFC1 azul 3
+#FFD124 amarillo
+
+*/
 
 footer{
     position: absolute;
@@ -10,4 +14,9 @@ footer{
     background: #444444;
     color: white;
     padding: 10px;
+}
+
+footer a, footer a:hover{
+  color: white;
+  text-decoration: none;
 }
