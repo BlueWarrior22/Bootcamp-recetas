@@ -26,3 +26,7 @@ footer a, footer a:hover{
     display: none !important;
   }
 }
+
+#NavChef {
+  padding-bottom: 8px;
+}
